@@ -1,0 +1,18 @@
+go to dir and create virtyal environment
+py -m venv env
+
+enter into virtual environment
+env\Scripts\activate.bat 
+
+install flak
+pip install flask
+
+set flask startup var environment 
+set FLASK_APP=app.py
+
+run flask application
+run flask
+
+pip install flask-ngrok
+
+pip3 freeze >> requirments.txt
